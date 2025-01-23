@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="600px" viewBox="0 0 1920 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy</title>
+    <defs>
+        <path d="M0,0 L1920,0 L1920,600 L0,600 L0,0 Z" id="path-1"></path>
+        <linearGradient x1="85.4719535%" y1="36.2355701%" x2="50%" y2="66.9975365%" id="linearGradient-2">
+            <stop stop-color="#FFE900" offset="0%"></stop>
+            <stop stop-color="#FF6C00" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-26.2%" y="-38.5%" width="152.4%" height="177.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="90" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="14.5220025%" y1="44.6707796%" x2="50%" y2="55.3292204%" id="linearGradient-4">
+            <stop stop-color="#00EEFF" offset="0%"></stop>
+            <stop stop-color="#9400FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-21.3%" y="-65.2%" width="142.6%" height="230.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="100" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-94.6%" y="-109.5%" width="289.3%" height="319.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="100" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Artboard-Copy" stroke="none" fill="none" xlink:href="#path-1" fill-rule="evenodd">
+        <path d="M624.745879,356.883773 C852.493676,356.883773 844.391489,221.781455 844.391489,-5.96634184 C844.391489,-233.714138 748.565708,-344.048309 146.693671,-344.048309 C-455.178366,-344.048309 -77.2587147,-369.888969 19.64376,-5.96634184 C116.546235,357.956285 396.998083,356.883773 624.745879,356.883773 Z" id="Oval" fill="url(#linearGradient-2)" filter="url(#filter-3)" transform="translate(328.9272, 6.2179) scale(-1, 1) rotate(-37) translate(-328.9272, -6.2179)"></path>
+        <path d="M1790.26385,208.138107 C1880.03946,157.0311 2124,197.255537 2124,107.634697 C2124,-46.6191175 1803.69243,-160.499495 1592.67133,-160.499495 C1381.65023,-160.499495 715.022388,-218.419819 715.022388,-64.1660049 C715.022388,-28.0369247 709.146752,98.1856582 887.766099,98.1856582 C1111.79241,98.1856582 1119.85565,226.152108 1229.72814,268.268353 C1383.02582,327.030311 1725.51926,244.995582 1790.26385,208.138107 Z" id="Oval-Copy" fill="url(#linearGradient-4)" filter="url(#filter-5)"></path>
+        <ellipse id="Oval" fill="#D70B0B" filter="url(#filter-6)" cx="142.5" cy="29" rx="158.5" ry="137"></ellipse>
+    </g>
+</svg>

@@ -5,28 +5,30 @@
       <!-- Section header -->
       <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
         <div>
-          <div class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-600 pb-3">
+          <div class="inline-flex inline-block font-medium bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-600 pb-3">
             Integrates with your favorite framework
           </div>
         </div>
         <h2 class="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
           Framework Integrations
         </h2>
-        <p class="text-lg text-slate-400">
+        <p class="text-lg text-slate-200 drop-shadow-lg">
           The Hotwire approach is compatible with any server-side rendered framework.
         </p>
       </div>
 
-      <div class="relative max-w-xs sm:max-w-md mx-auto md:max-w-6xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
+      <div class="relative max-w-xs sm:max-w-md mx-auto md:max-w-6xl grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
         <% FrameworkModel.grouped_by_language.each do |language, pages| %>
           <% pages.each do |page| %>
-            <a href="<%= page.request_path %>" class="rounded-xl relative flex justify-center items-center hover:bg-gray-900/75 aspect-square">
-              <% if page.image %>
-                <%= image_tag image_path(page.image), alt: "#{page.framework} Logo", class: "w-20" %>
-              <% elsif page.icon_class %>
-                <%= tag.i class: "#{page.icon_class} text-7xl" %>
-              <% end %>
-            </a>
+            <div class="bg-black/40 rounded-3xl p-4">
+              <a href="<%= page.request_path %>" class="transition-transform rounded-xl relative flex justify-center items-center hover:bg-gray-900/60 aspect-square hover:scale-105 drop-shadow-lg">
+                <% if page.image %>
+                  <%= image_tag image_path(page.image), alt: "#{page.framework} Logo", class: "w-20" %>
+                <% elsif page.icon_class %>
+                  <%= tag.i class: "#{page.icon_class} text-7xl" %>
+                <% end %>
+              </a>
+            </div>
           <% end %>
         <% end %>
       </div>
